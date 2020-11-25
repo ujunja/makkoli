@@ -1,0 +1,41 @@
+
+header {
+	margin: 0 auto;
+	width: 1100px;
+	text-align: center;
+	position: fixed;
+
+}
+
+
+a {
+	text-decoration: none;
+	margin-right: 20px;
+}
+
+a.undeline:hover {
+	text-decoration: underline;
+	color: black;	
+}
+
+h5 {
+	margin-bottom: 0;
+	margin-top: 3px;
+}
+
+section {
+	width: 1100px;
+	margin: 0 auto;
+	margin-top : 240px;
+	padding-left: 100px;
+}
+
+article {
+	margin-bottom: 15px;
+	text-align: center;
+	display: inline-block;
+	padding: 0;
+	width: 260px;
+	height: 270px;
+}
+

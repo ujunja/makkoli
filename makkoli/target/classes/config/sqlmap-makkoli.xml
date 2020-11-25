@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC
+		"-//mybatis.org//DTD mapper 3.0//EN" 
+		"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="LswnMakkoli">
+
+<select id="AllList" resultType="com.makkoli.dao.ItemsVO">
+	select * from makkoli
+</select>
+
+<select id="totalNum" resultType="int">
+	select max(rownum) from makkoli
+</select>
+
+<select id="areaCount" resultType="int" parameterType="string">
+	select max(rownum) from makkoli where area=#{area }
+</select>
+
+</mapper>
+		
